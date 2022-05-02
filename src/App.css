@@ -1,3 +1,10 @@
+/* to add a gost element before the body, to push the body down, otherwise sticked navbar questions the hero section.*/
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
 @media (min-width: 768px) {
   .new-input {
     width: 50%;

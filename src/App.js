@@ -1,4 +1,5 @@
 import "./App.css";
+import Accordion from "./components/Accordion";
 import Cards from "./components/Cards";
 import HeroSection from "./components/HeroSection";
 import Learn from "./components/Learn";
@@ -14,6 +15,7 @@ function App() {
       <Newsletter />
       <Cards />
       <Learn />
+      <Accordion />
     </div>
   );
 }

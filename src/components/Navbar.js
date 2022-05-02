@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <>
       <nav
-        className="navbar navbar-expand-lg bg-dark navbar-dark py-3
+        className="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top
     "
       >
         <div className="container ">
@@ -23,17 +23,17 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navmenu">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a href="/learn" className="nav-link">
+                <a href="#learn" className="nav-link">
                   What You'll Learn
                 </a>
               </li>
               <li className="nav-item">
-                <a href="/questions" className="nav-link">
+                <a href="#questions" className="nav-link">
                   Questions
                 </a>
               </li>
               <li className="nav-item">
-                <a href="/instructors" className="nav-link">
+                <a href="#instructors" className="nav-link">
                   Instructors
                 </a>
               </li>
