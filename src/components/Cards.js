@@ -5,7 +5,7 @@ function Cards() {
   "
     >
       <div className="container">
-        <div className="row text-center">
+        <div className="row text-center g-3">
           <div className="col-md">
             <div className="card bg-dark text-light">
               <div className="card-body text-center">
