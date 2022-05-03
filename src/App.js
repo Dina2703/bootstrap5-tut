@@ -1,6 +1,7 @@
 import "./App.css";
 import Accordion from "./components/Accordion";
 import Cards from "./components/Cards";
+import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import InstuctorsSection from "./components/InstuctorsSection";
 import Learn from "./components/Learn";
@@ -20,6 +21,7 @@ function App() {
       <Accordion />
       <InstuctorsSection />
       <MapAddress />
+      <Footer />
     </div>
   );
 }
