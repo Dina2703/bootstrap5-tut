@@ -2,9 +2,9 @@ import React from "react";
 
 function Accordion() {
   return (
-    <section classNameName="p-5" id="questions">
-      <div classNameName="container">
-        <h2 classNameName="text-center mb-4">Frequently Asked questions</h2>
+    <section className="p-5" id="questions">
+      <div className="container">
+        <h2 className="text-center mb-4">Frequently Asked questions</h2>
         <div className="accordion accordion-flush" id="questions">
           <div className="accordion-item">
             <h2 className="accordion-header">
