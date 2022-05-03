@@ -2,7 +2,7 @@ import React from "react";
 
 function InstuctorsSection() {
   return (
-    <section className="p-5 bg-primary" id="instuctors">
+    <section className="p-5 bg-primary" id="instructors">
       <div className="container">
         <h2 className="text-center text-white">Our Instructors</h2>
         <p className="lead text-center text-white mb-5">
